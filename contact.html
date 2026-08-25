@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Contact — Valeria Cortes-Mora</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,500&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-name">Valeria Cortes-Mora</span>
+      <span class="brand-coords">35.08°N · 106.65°W — ALBUQUERQUE, NM</span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav" id="site-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="research.html">Portfolio</a>
+      <a href="resume.html">Resume</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-head">
+    <div class="wrap">
+      <span class="eyebrow">Contact</span>
+      <h1>Let's get in touch.</h1>
+      <p class="lede">Whether it's about research, collaboration, or opportunities in geography and GIS — I'd love to hear from you.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap contact-grid">
+      <div class="reveal">
+        <ul class="contact-list">
+          <li>
+            <span class="label">Name</span>
+            Valeria Cortes-Mora
+          </li>
+          <li>
+            <span class="label">Department</span>
+            Geography and Environmental Studies, University of New Mexico
+          </li>
+          <li>
+            <span class="label">Location</span>
+            Albuquerque, NM 87131
+          </li>
+          <li>
+            <span class="label">Email</span>
+            <a href="mailto:vcortemora08@unm.edu">vcortemora08@unm.edu</a><br>
+            <a href="mailto:valeriacormor@gmail.com">valeriacormor@gmail.com</a>
+          </li>
+          <li>
+            <span class="label">LinkedIn</span>
+            <a href="https://www.linkedin.com/in/valeria-cortes-mora-89692729b/" target="_blank" rel="noopener">linkedin.com/in/valeria-cortes-mora</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="card reveal">
+        <h3>Send a message</h3>
+        <p style="color: var(--ink-70); margin-bottom: 24px;">This opens your email app with the message pre-filled — nothing is stored on this site.</p>
+        <form id="contact-form">
+          <div class="form-field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div>
+      <p class="footer-name">Valeria Cortes-Mora</p>
+      <p class="footer-meta">Geography &amp; Environmental Studies — University of New Mexico</p>
+    </div>
+    <div class="footer-links">
+      <a href="mailto:valeriacormor@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/valeria-cortes-mora-89692729b/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
